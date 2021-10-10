@@ -34,4 +34,11 @@ public class UserValidationExceptionTest {
 
         Assert.assertEquals(true,validation.mobileNumber("+91-9765326068"));
     }
+    public void password(){
+
+        UserValidationException validation = new UserValidationException();
+
+        Assert.assertEquals(true,validation.password("J@vaC0deG##ks"));
+    }
+
 }

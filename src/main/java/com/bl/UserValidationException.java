@@ -82,5 +82,22 @@ public class UserValidationException {
         }
         return 0;
     }
+    public static long password(String password) {
+
+        String pattern = "(?=.*?[A-Z])(?=.*?[0-9])[A-Za-z]{8,}";
+
+        Pattern r = Pattern.compile(pattern);
+
+        Matcher m;
+        m = r.matcher(password);
+
+        if (m.matches()) {
+            System.out.println(" Password is Matched :");
+
+        } else {
+            System.out.println(" Password is  Not Matched :");
+        }
+        return 0;
+    }
 }
 
