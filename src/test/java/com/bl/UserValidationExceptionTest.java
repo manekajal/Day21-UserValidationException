@@ -13,5 +13,11 @@ public class UserValidationExceptionTest {
 
         Assert.assertSame(true,validation.firstName("Kajal"));
     }
+    @Test
+    public void lastName(){
 
+        UserValidationException validation = new UserValidationException();
+
+        Assert.assertSame(true,validation.firstName("Mane"));
+    }
 }

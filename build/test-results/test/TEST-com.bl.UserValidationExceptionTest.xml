@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.UserValidationExceptionTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-10-10T04:57:59" hostname="KAJAL-PC" time="0.044">
+<testsuite name="com.bl.UserValidationExceptionTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-10-10T05:03:51" hostname="KAJAL-PC" time="0.035">
   <properties/>
-  <testcase name="firstName()" classname="com.bl.UserValidationExceptionTest" time="0.044">
+  <testcase name="firstName()" classname="com.bl.UserValidationExceptionTest" time="0.035">
     <failure message="java.lang.AssertionError: expected same:&lt;true&gt; was not:&lt;Kajal&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected same:&lt;true&gt; was not:&lt;Kajal&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotSame(Assert.java:829)

@@ -28,6 +28,28 @@ public class UserValidationException {
 
         return firstName;
     }
+    public static String lastName(String lastName) {
+        try {
+            String pattern = "^[A-Z][a-zA-Z]{3,}";
 
+            Pattern r = Pattern.compile(pattern);
+
+            Matcher m = r.matcher(lastName);
+
+            if (m.matches()) {
+                System.out.println(" Last Name is matched ");
+            } else {
+                System.out.println(" Not Matched ");
+            }
+            System.out.println();
+        }
+        catch (PatternSyntaxException e){
+            System.out.println("Invalid Regex"+ e.getMessage());
+
+        }
+
+
+        return lastName;
+    }
 
 }
