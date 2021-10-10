@@ -47,9 +47,23 @@ public class UserValidationException {
             System.out.println("Invalid Regex"+ e.getMessage());
 
         }
-
-
         return lastName;
     }
+    public long email(String email)
+    {
+        String pattern = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
+        Pattern r = Pattern.compile(pattern);
 
+        Matcher m = r.matcher(email);
+
+
+        if (m.matches()) {
+            System.out.println(" email Matched :");
+
+        } else {
+            System.out.println("email  No Matched :");
+        }
+        return 0;
+    }
 }
+

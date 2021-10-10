@@ -18,6 +18,13 @@ public class UserValidationExceptionTest {
 
         UserValidationException validation = new UserValidationException();
 
-        Assert.assertSame(true,validation.firstName("Mane"));
+        Assert.assertSame(true,validation.lastName("Mane"));
+    }
+    @Test
+    public void email(){
+
+        UserValidationException validation = new UserValidationException();
+
+        Assert.assertEquals(true,validation.email("m@vsnl.com"));
     }
 }
