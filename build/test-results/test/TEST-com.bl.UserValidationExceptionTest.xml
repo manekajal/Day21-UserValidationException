@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.UserValidationExceptionTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2021-10-10T05:39:31" hostname="KAJAL-PC" time="0.051">
+<testsuite name="com.bl.UserValidationExceptionTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2021-10-10T06:54:14" hostname="KAJAL-PC" time="0.133">
   <properties/>
-  <testcase name="lastName()" classname="com.bl.UserValidationExceptionTest" time="0.043">
+  <testcase name="lastName()" classname="com.bl.UserValidationExceptionTest" time="0.124">
     <failure message="java.lang.AssertionError: expected same:&lt;true&gt; was not:&lt;Mane&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected same:&lt;true&gt; was not:&lt;Mane&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotSame(Assert.java:829)
 	at org.junit.Assert.assertSame(Assert.java:772)
 	at org.junit.Assert.assertSame(Assert.java:783)
-	at com.bl.UserValidationExceptionTest.lastName(UserValidationExceptionTest.java:21)
+	at com.bl.UserValidationExceptionTest.lastName(UserValidationExceptionTest.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,7 +106,7 @@
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:120)
 	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.bl.UserValidationExceptionTest.email(UserValidationExceptionTest.java:28)
+	at com.bl.UserValidationExceptionTest.email(UserValidationExceptionTest.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,7 +205,7 @@
 	at org.junit.Assert.failNotSame(Assert.java:829)
 	at org.junit.Assert.assertSame(Assert.java:772)
 	at org.junit.Assert.assertSame(Assert.java:783)
-	at com.bl.UserValidationExceptionTest.firstName(UserValidationExceptionTest.java:14)
+	at com.bl.UserValidationExceptionTest.firstName(UserValidationExceptionTest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -298,13 +298,13 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="mobileNumber()" classname="com.bl.UserValidationExceptionTest" time="0.001">
+  <testcase name="mobileNumber()" classname="com.bl.UserValidationExceptionTest" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:120)
 	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.bl.UserValidationExceptionTest.mobileNumber(UserValidationExceptionTest.java:35)
+	at com.bl.UserValidationExceptionTest.mobileNumber(UserValidationExceptionTest.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
