@@ -65,5 +65,22 @@ public class UserValidationException {
         }
         return 0;
     }
+
+    public static long mobileNumber(String  str){
+        String pattern = "^(?:(?:\\+|0{0,2})91(\\s*[\\-]\\s*)?|[0]?)?[789]\\d{9}$";
+        Pattern r= Pattern.compile(pattern);
+
+        Matcher m;
+        m = r.matcher(str);
+
+        if(m.matches()){
+            System.out.println(" Mobile Number is Matched :" );
+
+        }else
+        {
+            System.out.println("  Mobile Number is Not Matched :");
+        }
+        return 0;
+    }
 }
 

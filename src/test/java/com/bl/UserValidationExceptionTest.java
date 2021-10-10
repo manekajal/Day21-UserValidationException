@@ -27,4 +27,11 @@ public class UserValidationExceptionTest {
 
         Assert.assertEquals(true,validation.email("m@vsnl.com"));
     }
+    @Test
+    public void mobileNumber(){
+
+        UserValidationException validation = new UserValidationException();
+
+        Assert.assertEquals(true,validation.mobileNumber("+91-9765326068"));
+    }
 }
